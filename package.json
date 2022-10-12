@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha tests/**/*.js",
     "dev": "nodemon index",
-    "start": "node index"
+    "start": "node index.js"
   },
   "author": "Emmanuel Irabor",
   "license": "MIT",
