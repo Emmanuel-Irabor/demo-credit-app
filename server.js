@@ -22,7 +22,7 @@ server.use("/api/v1/auth", authRoutes)
 server.use("/api/v1/user", userRoutes)
 server.use("/api/v1/wallet", walletRoutes)
 server.use(helmet())
-server.use(morgan(':date[iso] :method :url :http-version :user-agent :status (response-time ms)'))
+server.use(morgan(':date[iso] :method :url :http-version :user-agent :status :response-time ms'))
 
 // apply rate limiter
 server.use(limiter)
