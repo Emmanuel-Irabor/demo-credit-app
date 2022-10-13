@@ -83,14 +83,14 @@ https://documenter.getpostman.com/view/23777914/2s83zmN36b
 ## API Endpoints
 | HTTP Verbs | Endpoints | Action | Required |
 | --- | --- | --- | --- |
-| POST | https://api/v1/auth/register | Register a new user | req.body.firstName <br> req.body.password <br> req.body.email <br> req.body.lastName <br> req.body.mobileNumber |
-| POST | https://api/v1/auth/login | Login user |  req.body.email <br> req.body.password|
-| DELETE | https://api/v1/user/delete/:mobileNumber | Delete a user |  req.params.mobileNumber <br> req.body.email|
-| PUT | https://api/v1/user/update/:mobileNumber | Update a user |  req.params.mobileNumber <br> req.body|
-| POST | https://api/v1/wallet/deposit | Fund wallet  | req.body.email <br> req.body.amountToFund |
-| POST | https://api/v1/wallet/transfer | Transfer funds  | req.body.senderEmail <br> req.body.amountToTransfer <br> req.body.recieverEmail |
-| POST | https://api/v1/wallet/withdraw | Withdraw funds  | req.body.email <br> req.body.amountToWithdraw |
-| POST | https://api/v1/wallet/balance | Check wallet balance  | req.body.email |
+| POST | https://demo-credit-app-production.up.railway.app/api/v1/auth/register | Register a new user | req.body.firstName <br> req.body.password <br> req.body.email <br> req.body.lastName <br> req.body.mobileNumber |
+| POST | https://demo-credit-app-production.up.railway.app/api/v1/auth/login | Login user |  req.body.email <br> req.body.password|
+| DELETE | https://demo-credit-app-production.up.railway.app/api/v1/user/delete/:mobileNumber | Delete a user |  req.params.mobileNumber <br> req.body.email|
+| PUT | https://demo-credit-app-production.up.railway.app/api/v1/user/update/:mobileNumber | Update a user |  req.params.mobileNumber <br> req.body|
+| POST | https://demo-credit-app-production.up.railway.app/api/v1/wallet/deposit | Fund wallet  | req.body.email <br> req.body.amountToFund |
+| POST | https://demo-credit-app-production.up.railway.app/api/v1/wallet/transfer | Transfer funds  | req.body.senderEmail <br> req.body.amountToTransfer <br> req.body.recieverEmail |
+| POST | https://demo-credit-app-production.up.railway.app/api/v1/wallet/withdraw | Withdraw funds  | req.body.email <br> req.body.amountToWithdraw |
+| POST | https://demo-credit-app-production.up.railway.app/api/v1/wallet/balance | Check wallet balance  | req.body.email |
 
 ## Database Design
 ![alt text](design/database-design.png)
@@ -108,6 +108,6 @@ The app is deployed on Railway cloud platform
 ![alt text](design/demo_credit_deployed_app.png)
 
 ### Link to Deployed app
-https://
+https://demo-credit-app-production.up.railway.app/
 
 ![alt text](design/demo_credit_deployment.png)
