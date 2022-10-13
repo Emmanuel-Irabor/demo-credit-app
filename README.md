@@ -110,4 +110,4 @@ The app is deployed on Railway cloud platform
 ### Link to Deployed app
 https://demo-credit-app-production.up.railway.app/
 
-![alt text](design/demo_credit_deployment.png)
+![alt text](design/demo_credit_cloud_deployment.png)
