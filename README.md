@@ -67,7 +67,7 @@ MySQL database
 **NB : Endeavour to check the API endpoints section to know the required fields for each of the activity**    
 
 ## How to setup locally
-- Open your terminal and clone this repository using `git clone https://github.com/emmywhyte93/demo-credit-api.git`.
+- Open your terminal and clone this repository using `git clone https://github.com/emmywhyte93/demo-credit-app.git`.
 - Navigate to project folder and install dependencies using `npm install`.
 - Create .env file and add environment variables using .env.sample as a guide.
 - Run the command `npx knex migrate:latest` to create the tables. 
