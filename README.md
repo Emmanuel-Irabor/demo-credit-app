@@ -25,6 +25,11 @@ A user can withdraw funds from their account.
 - [Postman](https://www.postman.com/downloads/) is an API client that makes it easy for developers to create, share, test and document APIs. This is done by allowing users to create and save simple and complex HTTP/s requests, as well as read their responses. The result - more efficient and less tedious work.
 - [Git](https://git-scm.com/) is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
+#### Tech Stack
+NodeJS (LTS version)
+KnexJS ORM
+MySQL database
+
 #### Project Dependencies
 - express
 - express-rate-limit
@@ -94,7 +99,15 @@ https://documenter.getpostman.com/view/23777914/2s83zmN36b
 This project is available for use under the MIT License.
 
 #### Author
-[Emmanuel Irabor]((https://github.com/))
+[Emmanuel Irabor]((https://github.com/Emmywhyte93))
+
+#### Deployment
+
+The app is deployed on Railway cloud platform
+
+![alt text](design/demo_credit_deploymed_app.png)
 
 ### Link to Deployed app
 https://
+
+![alt text](design/demo_credit_deployment.png)
