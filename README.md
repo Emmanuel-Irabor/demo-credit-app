@@ -105,7 +105,7 @@ This project is available for use under the MIT License.
 
 The app is deployed on Railway cloud platform
 
-![alt text](design/demo_credit_deploymed_app.png)
+![alt text](design/demo_credit_deployed_app.png)
 
 ### Link to Deployed app
 https://
